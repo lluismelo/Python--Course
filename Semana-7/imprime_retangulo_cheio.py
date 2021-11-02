@@ -9,22 +9,11 @@
 largura = int(input("Digite o valor da largura: "))
 altura = int(input("Digite o valor da altura: "))
 
-#não funcionou
-while altura >= 1:
-    while largura >= 1:
-        print("#",end="")
-        largura = largura - 1
-    altura = altura -1
+larg = largura
+while altura > 0:
+    while larg > 0:
+        print("#", end="")
+        larg = larg - 1
     print("")
-
-#não funcionou
-while largura >= 1:
-    print("#", end="")
-    largura = largura - 1
-    #print("\n")
-    if largura < 1:
-        print("")
-        while altura >= 1:
-            print("#", end="")
-            altura = altura - 1
-
+    altura = altura - 1    
+    larg = largura 
