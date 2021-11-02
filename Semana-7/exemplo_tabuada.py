@@ -1,3 +1,5 @@
+#Este programa apenas mostra a tabuada dos números
+#Apenas um exemplo de while encaixado (laços aninhados)
 def tabuada():
     tab = 0
     while tab < 10:
